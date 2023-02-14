@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios HTML</title>
+</head>
+<body>
+    <h1>Formularios HTML</h1><hr>
+    <label for="nombre">nombre</label>
+    <input type="text" placeholder="Teclea el nombre del alumno" required>
+
+    <label for="aded">edad</label>
+    <input type="numbre" placeholder="Teclea tu edad"required>
+
+    <label for="fecha_nacimiento">Fecha de nacimiento</label>
+    <input type="data"required>
+
+    <input type="radio" name="sexo" required> femenino
+    <input type="radio" name="sexo" required> masculino <br><br>
+
+    <label for="direccion">direccion</label><br>
+    <textarea name="direccion" id="" cols="20" rows="10" placeholder="Teclea direccion"></textarea>
+
+    <label for="escuela">Escuela</label>
+    <select name="escuela" id="">
+        <option value="">selecciona una escuela</option>
+        <option value="cetis">CETIS 107</option>
+        <option value="cbetis">cbetis 224</option>
+        <option value="otra">otra</option>
+    </select><br><br>
+
+    <label for="materias">Materias cursadas</label><br>
+    <input type="checkbok" name="material[]"> fisica <br>
+    <input type="checkbok" name="material[]">calculo diferencia <br>
+    <input type="checkbok" name="material[]"> ingles <br>
+    <input type="checkbok" name="material[]"> programacion de web <br>
+
+    <label for="color">Color favorito:</label>
+    <input type="color"required> <br>
+    
+    <label for="imagen_peril1"><b>imagen delperfil</b></label><br>
+    <input type="file" accept="png/jpg"><br><br>
+
+    <input type="submit" value="Guardar alumno"><br><br><br>
+    
+</body>
+</html>
