@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <h1>Formulario para vacaciones</h1><hr>
+    <label for="nombre">nombre</label>
+    <input type="text" placeholder="Teclea el nombre del solicitante" required>
+
+    <label for="fecha_nacimiento">Fecha del inicio de las vacaciones</label>
+    <input type="data"required>
+    <label for="fecha_nacimiento">Fecha del final de las vacaciones</label>
+    <input type="data"required>
+
+    <input type="radio" name="sexo" required> femenino
+    <input type="radio" name="sexo" required> masculino <br><br>
+
+    <label for="direccion">direccion</label><br>
+    <textarea name="direccion" id="" cols="20" rows="10" placeholder="Teclea su direccion"></textarea>
+
+    <label for="playa">Que lugar desea visitar?</label>
+    <select name="playa" id="">
+        <option value="">selecciona una playa</option>
+        <option value="playa">Playa El Cielo</option>
+        <option value="playa">Playa Corona</option>
+        <option value="otra">otra</option>
+    </select><br><br>
+
+    <label for="imagen_peril1"><b>imagen del perfil</b></label><br>
+    <input type="file" accept="png/jpg"><br><br>
+
+    <input type="submit" value="Guardar vacaciones"><br><br><br>
+    
+</body>
+<body>
+    <div style="border: 1px solid rgb(20, 221, 228);padding: 10px;background-color: rgb(20, 221, 228);border-radius: 20px;margin-top: 40px;">
+        <a href="evaluacion-1.html">pa atras</a>
+    </div>
+    <script src="js/query-3.6.3.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
