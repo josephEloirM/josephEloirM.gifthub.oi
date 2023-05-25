@@ -4,32 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registro del alumno</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
-    <h1>practica 2. Aplicando css</h1>
-    <hr>
-    <div style="border: 2px solid pink; width: 50%; padding:  20px; text-align: center;">
-        div  con borde de 2px rosa.
-    </div>
-    <br>
-    <div style="border: 2px dotted black">
-        segundo DIV
-    </div>
-    <div style="border: 2px solid rgb(143, 248, 255); padding: 15px;
-            margin-top: 20px;">
-            <div style="border: 1px solid blue; width: 50%;">
-                DIV1
+    <div class="container">
+        <h1>Registro del alumno</h1>
+        <form action="">
+        <div class="form-group">
+            <label for="">nombre</label>
+            <input type="text" name="nombre" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="">nombre</label>
+            <input name="edad" type="number" class="form-group">
+        </div><br>
+        <div class="form-group">
+            <label for="">escuela</label>
+            <select name="Escuela">
+                <option value="">seleciona una escuela</option>
+                <option value="CETIS107">Cetis107</option>
+                <option value="CBTIS107">Cbtis107</option>
+                <option value="COBAES">Cobaes</option>
+            </select>
+        </div><br>
+            <div class="form-group">
+                <label for="">fecha de ingreso</label>
+                <label name="fecha_ingreso" type="date" class="form-control" ></label>
+            </div><br>
+            <div class="form-group">
+                <label for="">DIRECCION</label>
+                <textarea name="direccion" cols="30" rows="4" class="form-control"></textarea>
+            </div><br>
+            <div>
+                <input type="submit" class="btn btn-primary">
             </div>
-            <div style="border: 1px solid blue; width: 50%;">
-                DIV2
-            </div>
-            <div style="border: 1px solid blue; width: 50%;">
-                DIV3
-            </div>
-            
-
+        </form>
     </div>
-    
 </body>
 </html>
